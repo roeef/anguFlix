@@ -5,9 +5,9 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { BugetStatusComponent } from './buget-status/buget-status.component';
 import { MovieListComponent } from './movie-list/movie-list.component';
-import { SearchFilterComponent } from './search-filter/search-filter.component';
 import { MovieItemComponent } from './movie-item/movie-item.component';
 import {MovieService} from './movie-service.service';
+import {FormsModule} from '@angular/forms';
 
 
 @NgModule({
@@ -15,11 +15,11 @@ import {MovieService} from './movie-service.service';
     AppComponent,
     BugetStatusComponent,
     MovieListComponent,
-    SearchFilterComponent,
-    MovieItemComponent
+    MovieItemComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [MovieService],
   bootstrap: [AppComponent]
