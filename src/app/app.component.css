@@ -1,0 +1,45 @@
+/*body {*/
+  /*background: #e0e0e0;*/
+  /*padding: 15px 0;*/
+/*}*/
+
+/*.tab-container {*/
+  /*background: #fff;*/
+  /*border-radius: 3px;*/
+  /*box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075), 0 2px 4px rgba(0, 0, 0, 0.0375);*/
+/*}*/
+/*.tab-container .nav-tabs {*/
+  /*border-bottom: 1px solid #e0e0e0;*/
+  /*position: relative;*/
+/*}*/
+/*.tab-container .nav-tabs > li {*/
+  /*margin-bottom: 0;*/
+  /*position: initial;*/
+/*}*/
+/*.tab-container .nav-tabs > li > a {*/
+  /*border: none;*/
+  /*color: #999;*/
+  /*margin: 0;*/
+/*}*/
+/*.tab-container .nav-tabs > li > a:hover {*/
+  /*background: transparent;*/
+/*}*/
+/*.tab-container .nav-tabs > li.active > a {*/
+  /*border: none;*/
+  /*color: #874CFF;*/
+  /*background: transparent;*/
+/*}*/
+/*.tab-container .nav-tabs > li.active > a, .tab-container .nav-tabs > li.active > a:focus, .tab-container .nav-tabs > li.active > a:hover {*/
+  /*border-width: 0;*/
+/*}*/
+/*.tab-container .nav-tabs > li#magic-line {*/
+  /*position: absolute;*/
+  /*bottom: -1px;*/
+  /*left: 0;*/
+  /*width: 100px;*/
+  /*height: 2px;*/
+  /*background: #874CFF;*/
+/*}*/
+/*.tab-container .tab-content {*/
+  /*padding: 15px;*/
+/*}*/
